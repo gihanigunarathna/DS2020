@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DisplayDetails" android:parentActivityName=".MainActivity">
-
-
-        </activity>
+        <activity android:name=".PasanActivity2"></activity>
+        <activity
+            android:name=".BuwanekaActivity2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DisplayDetails"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
