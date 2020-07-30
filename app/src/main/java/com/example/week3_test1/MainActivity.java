@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View v)
     {
-        Intent i=new Intent(this, DisplayDetails.class);
+        Intent i=new Intent(this, BuwanekaActivity2.class);
         EditText et=findViewById(R.id.editTextTextPersonName);
         String s=et.getText().toString();
         i.putExtra(EXTRA_MESSAGE,s);
